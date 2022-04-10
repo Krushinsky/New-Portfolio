@@ -95,7 +95,7 @@ document.querySelectorAll('.diplom').forEach(item=>{
 // start animation
 const button = document.querySelector('#start');
 button.addEventListener('click', function(){
-    document.querySelector('.video').play();
+    document.querySelector('.video').play;
 
 })
 
