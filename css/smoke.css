@@ -89,8 +89,8 @@
 
 @media all and (max-width:900px){
     .video{
-		width: 80%;
-	}
+        object-fit:contain;
+    }
     .title{
 		font-size: calc(var(--sizeindex) * 1.6);
         
@@ -98,6 +98,9 @@
 }
 
 @media all and (max-width:800px){
+    .video{
+        object-fit:contain;
+    }
     .title{
 		font-size: calc(var(--sizeindex) * 1.5);
         
@@ -107,12 +110,8 @@
 @media all and (max-width:500px){
 	.video{
         object-fit:contain;
-        height: 100vh;
     }
-    .video{
-		width: 80%;
-        
-	}
+    
 	.title{
 		font-size: calc(var(--sizeindex) * 1);
             
