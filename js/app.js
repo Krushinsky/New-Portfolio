@@ -92,5 +92,11 @@ document.querySelectorAll('.diplom').forEach(item=>{
         document.querySelector('nav').classList.toggle('fixed-top');
     })})
 
+// start animation
+const button = document.querySelector('#start');
+button.addEventListener('click', function(){
+    document.querySelector('#video').play();
+
+})
 
     

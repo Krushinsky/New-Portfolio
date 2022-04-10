@@ -205,9 +205,17 @@ font-size: calc(var(--sizeindex) * .8);
 #hrFour{
 	margin-bottom: 10vh;
 }
-
+#start{
+	display: none;
+	}
 
 @media all and (max-width:800px){
+	#start{
+		padding: 5px;
+		background: linear-gradient(to right, #000000, #f0f3f5); 
+		border-radius: 20px;
+		display: block;
+	}
     .header{
 		font-size: calc(var(--sizeindex) * 3);
 	margin-left: 2vh;
