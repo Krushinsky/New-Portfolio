@@ -98,19 +98,6 @@
 		font-size: calc(var(--sizeindex) * 1.6);
         
 }
-@keyframes animate {
-    0%{
-        opacity: 0;
-        transform: rotateY(90deg);
-        filter: blur(10px);
-    }
-    100%{
-        opacity: 1;
-        transform: rotateY(0);
-        filter: blur(0);
-
-    }
-}
 }
 
 @media all and (max-width:800px){
@@ -124,19 +111,6 @@
 		font-size: calc(var(--sizeindex) * 1.5);
         
 	}
-    @keyframes animate {
-        0%{
-            opacity: 0;
-            transform: rotateY(90deg);
-            filter: blur(10px);
-        }
-        100%{
-            opacity: 1;
-            transform: rotateY(0);
-            filter: blur(0);
-    
-        }
-    }
 }
 
 @media all and (max-width:500px){
@@ -150,19 +124,6 @@
 		font-size: calc(var(--sizeindex) * 1);
             
 	}
-    @keyframes animate {
-        0%{
-            opacity: 0;
-            transform: rotateY(90deg);
-            filter: blur(10px);
-        }
-        100%{
-            opacity: 1;
-            transform: rotateY(0);
-            filter: blur(0);
-    
-        }
-    }
 
 }
 
