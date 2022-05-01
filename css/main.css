@@ -208,6 +208,14 @@ font-size: calc(var(--sizeindex) * .8);
 
 
 @media all and (max-width:800px){
+	.link{
+		height: 20px;
+	}
+	
+
+	:root {
+		--transition:4s cubic-bezier(.2, .6, 0, 1);
+	}
 	.header{
 		font-size: calc(var(--sizeindex) * 3);
 	margin-left: 2vh;
@@ -284,6 +292,10 @@ font-size: calc(var(--sizeindex) * .8);
 	}
 }
 @media all and (max-width:500px){
+	.aoboutSite{
+		font-size: calc(var(--sizeindex) * 1);
+
+	}
 	.header{
 		font-size: calc(var(--sizeindex) * 3);
 	margin-left: 2vh;

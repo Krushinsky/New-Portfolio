@@ -54,8 +54,6 @@ document.querySelectorAll( '.slider__item').forEach(item=>{
                 
     
                 item.classList.remove('opened')
-                    console.log(!withinBoundaries)
-                    navClose()
                         }
                         })
                         document.addEventListener('keydown', function(e) {
@@ -64,7 +62,7 @@ document.querySelectorAll( '.slider__item').forEach(item=>{
                                 navClose()
 
                             }
-
+                            
                         });
                         
                         if ( document.querySelector('.swiper').style.overflow = 'hidden') {
@@ -80,7 +78,7 @@ document.querySelectorAll( '.slider__item').forEach(item=>{
                                 document.querySelector('nav').classList.add('fixed-top');
                         }
                         }    
-                        navClose()
+                       navClose()
 
                         
    
